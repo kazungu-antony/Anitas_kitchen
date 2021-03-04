@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;
+    margin-left: 15%;
+}
+
+/* Navigation bar styling*/
+
+.nav-bar{
+    position: relative;
+    background-color: aqua;
+    height: 40px;
+}
+
+.nav-items{
+    padding: 10px;
+
+}
+
+
+.nav-items li{
+    display: inline;
+    padding: 20px;
+    padding-top: 20px;
+    
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* section 1 styling*/
+
+.section-1{
+    background-image: url('./assets/backgrounds/landing.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 500px;
+    clear: both;
+}
+
+.big-image{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 120px;
+}
+
+.two-divs{
+    float: left;
+}
+
+.div-one{
+    background-color: rgb(219, 210, 210);
+    height: 110px;
+    width: 307px;
+}
+
+.div-one p{ 
+    padding-top: 30px;
+}
+
+.div-two{
+    background-color: #F15A29;
+    height: 110px;
+    width: 307px;
+    clear: both;
+}
+
+.div-two p{ 
+    padding-top: 30px;
+}
+
+.meal-type{
+    display: flex;
+    flex-direction: row;
+}
+
+.three-divs{
+    float: right;
+    height: 800px
+    width: 100%;
+}
+
+.section-2{
+    clear: both;
+    margin-top: 50px;
+}
+
+.foods{
+    margin-top: 60px;
+}
+
+.food-types{
+    
+}
+
+.food-types img{
+    display: flex;
+    flex-direction: column;
+}
+
+.three-one{
+    background-image: url('./assets/foodtop/breakfast.jpg');
+    height: 220px;
+    width: 342px;
+}
+
+.three-two{
+    background-image: url('./assets/foodtop/lunch.jpg');
+    height: 220px;
+    width: 342px;
+}
+
+.three-three{
+    background-image: url('./assets/foodtop/dinner.jpg');
+    height: 220px;
+    width: 342px;
+}
+
+
+
