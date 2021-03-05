@@ -102,7 +102,7 @@ body{
 
 .three-divs{
     float: right;
-    height: 800px
+    height: 800px;
     width: 100%;
 }
 
@@ -167,6 +167,54 @@ body{
 .foods{
     clear: both;
 }
+
+.food-types-images{
+    margin-left: 120px;
+    border: 20px solid white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.food-type-one{
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.side-text h2{
+    padding: 20px;
+    font-size: 50px;
+}
+
+.side-text p{
+    padding: 20px;
+}
+
+.side-text button{
+    margin-left: 20px;
+}
+
+.food-types-vertical{
+    margin-top: 80px;
+    margin-right: 140px;
+}
+
+.food-type-two{
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.food-type-two p{
+    text-align: right;
+}
+
+.food-type-two button{
+    float: right;
+}
+
+.food-type-two h2{
+    text-align: right;
+}
+
+
 
 
 
