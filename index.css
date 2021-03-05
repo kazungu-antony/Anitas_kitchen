@@ -41,7 +41,7 @@ body{
     background-image: url('./assets/backgrounds/landing.jpg');
     background-repeat: no-repeat;
     width: 100%;
-    margin-bottom: 500px;
+    margin-bottom: 300px;
     clear: both;
 }
 
@@ -55,9 +55,6 @@ body{
     font-size: 40px;
 }
 
-.text-two span{
-    
-}
 
 .text-one{
     padding-top: 30px;
@@ -111,15 +108,11 @@ body{
 
 .section-2{
     clear: both;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .foods{
-    margin-top: 60px;
-}
-
-.food-types{
-    
+    margin-top: 20px;
 }
 
 .food-types img{
@@ -153,6 +146,26 @@ body{
     font-size: 30px;
     font-style: italic;
     color: #ffffff;
+}
+
+/* Section 2 */
+
+.section-2{
+    margin-bottom: 300px;
+}
+
+.food-types{
+    display: flex;
+    clear: both;
+}
+
+.food-types-images{
+    float: right;
+}
+
+
+.foods{
+    clear: both;
 }
 
 
