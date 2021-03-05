@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Georgia, serif;
+    color: rgb(63, 58, 58);
 }
 
 body{
@@ -212,6 +213,33 @@ body{
 
 .food-type-two h2{
     text-align: right;
+}
+
+.side-text h3{
+    color: rgb(63, 58, 58);
+}
+
+.food-type-one h3{
+    margin-left: 20px;
+}
+
+.food-type-two h3{
+    text-align: right;
+}
+
+.gallery-button{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #F15A29;
+    border-radius: 4px;
+    color: #F15A29;
+    font-size: 20px;
+}
+
+.gallery-button:hover{
+    background-color: #F15A29;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 
