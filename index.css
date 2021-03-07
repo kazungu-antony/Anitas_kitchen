@@ -1,7 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: souce serif
+    font-family: font-family:courier,arial,helvetica;
     color: rgb(63, 58, 58);
 }
 
@@ -269,6 +269,8 @@ body{
     border: 1px solid #ffffff;
 }
 
+
+
 /* Section 3 */
 .display-wrapper{
     background-image: url('./assets/backgrounds/foodsBg.jpg');
@@ -312,6 +314,7 @@ body{
 .food-links li{
     background-color: rgb(226, 218, 218);
     display: inline;
+    font-weight: bold;
     padding-bottom: 40px;
     padding: 20px 43px;
     border: 1px solid grey;
