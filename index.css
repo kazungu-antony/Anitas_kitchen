@@ -347,32 +347,45 @@ body{
 }
 
 .images-button-float-left{
+
     float: left;
     margin-left: 20px;
+    
+
 }
 
-.images-button-float-right{
+.images-button-float-right, .images-button-float-left{
+    background-color: #ffffff00;
     color: #F15A29;
     font-size: 30px;
     line-height: 40px;
-    width: 50px;
-    height: 50px;
-    margin-top: 50px;
-    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
+    transition: 0.5s;
+    box-shadow: -2px 2px 0  #F15A29;
     border: 0px;
+    cursor: pointer;
+}
+
+.images-button-float-right{
+    transform: rotate(45deg);
 }
 
 .images-button-float-left{
-    color: #F15A29;
-    width: 50px;
-    height: 50px;
-    margin-top: 50px;
-    border-radius: 60px;
-    font-size: 30px;
-    font-weight: bold;
-    border: 0px;
-
+    transform: rotate(225deg);
 }
+
+.images-button-float-right:hover,
+ .images-button-float-left:hover{
+     height: 40px;
+     width: 40px;
+     margin-top: 60px;
+    box-shadow: -2px 2px 0  grey;
+ }
+
+
 
 .food-images div>p{
     color: #F15A29;
@@ -380,14 +393,7 @@ body{
     font-weight: bold;
 }
 
-.food-images .images-button-float-left::before{
-    content: '>';
 
-}
-
-.food-images .images-button-float-right::before{
-    content: '<';
-}
 
 .customer-reviews{
     padding-top: 50px;
@@ -442,7 +448,7 @@ body{
     padding-left: 15px;
 }
 
-.testimonials button{
+.testimonials div{
 
     margin-left: 15px;
 }
