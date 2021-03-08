@@ -31,7 +31,6 @@ This project is under the  [MIT](LICENSE) licence
 *Copyright (c) 2021 (Antony Kazungu)*
 
 kazungu-antony/Anitas Kitchen /Menu Restraurant
-My favourite Music band
 Website
 https://github.com/kazungu-antony/Anitas_kitchen
 Language
