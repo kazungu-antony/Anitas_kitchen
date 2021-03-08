@@ -323,10 +323,13 @@ body{
     clear: both;
 }
 
-.white-link{
+.food-links li:hover{
     background-color: #ffffff;
-    border-style: none;
+    color: #F15A29;
+    border: 0px;
 }
+
+
 
 .food-images{
     margin-top: 40px;
@@ -340,7 +343,6 @@ body{
 
 .food-images img{
     height: 60%;
-    padding-left:
 
 }
 
@@ -467,6 +469,12 @@ body{
 
 .form button{
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #ffffff;
+    color: black;
 }
 
 form input{
@@ -510,6 +518,15 @@ footer h3, h1{
     padding-left: 20px;
     padding-top: 20px;
 }
+
+
+@media screen (min-width: 450px){
+    .meal-type{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 
