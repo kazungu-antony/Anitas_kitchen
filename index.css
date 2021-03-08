@@ -323,6 +323,11 @@ body{
     clear: both;
 }
 
+.white-link{
+    background-color: #ffffff;
+    border-style: none;
+}
+
 .food-images{
     margin-top: 40px;
     padding-top: 40px;
