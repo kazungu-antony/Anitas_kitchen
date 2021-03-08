@@ -23,7 +23,7 @@ $ git clone https://github.com/kazungu-antony/Anitas_kitchen
 2. CSS
 3. Git
 ### Live Site
-View [live](https://kazungu-antony.github.io/Favorite_band/)
+View [live](https://kazungu-antony.github.io/Anitas_kitchen/)
 ## Author
 Antony Kazungu
 ### Licence
